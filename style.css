@@ -1,0 +1,154 @@
+/* generic */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fafafa;
+    font-family: 'IBM Plex Sans KR', sans-serif;;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    /* text-transform: uppercase; */
+}
+
+a:hover{
+    text-decoration: none;
+    color: #A0C63F;
+    font-weight: 600;
+}
+
+
+.text {
+    text-align: justify;
+    padding: 5px;
+    hyphens: auto;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+span{
+    color: #A0C63F;
+}
+
+.container h1{
+    font-size: 1.8em;
+    margin-left: 50px;
+    font-weight: 400;
+}
+.container h2{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+/* end generic */
+
+/* main */
+
+#section1{
+    background-color: #A0C63F;
+    padding: 30px;
+}
+
+.block2 h2{
+    margin-left: -10%;
+    margin-top: 20%;
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.portfolio{
+    background-color: white;
+    padding: 10px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.portfolio img{
+    width: 150%;
+    height: 100%;
+}
+
+.btn{
+    padding: 5px;
+    color: #fff;
+    background-color: #A0C63F;
+    text-transform: capitalize;
+}
+
+.video{
+    margin-right: 10px;
+}
+
+.portfolio h5{
+    font-weight: 300;
+}
+
+.portfolio p{
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+
+
+footer{
+    background-color: white;
+}
+
+#section4{
+    padding-top: 20px;
+    /* border: 2px solid red; */
+}
+
+footer h3{
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+footer i{
+    margin: 7px;
+    color: grey;
+    font-weight: 200;
+}
+
+footer input{
+    background-color: #fafafa;
+    border: none;
+    padding: 10px 40px;
+    margin: 15px;
+}
+
+footer .btn{
+    margin-left: 70%;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.section5{
+    color: white;
+    background-color: black;
+    white-space: nowrap;
+}
+
+.colophon-nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0%;
+    padding-top: 10px;
+}
+
+.colophon ul li{
+    margin-left: 10px;
+}
+
+.colophon-nav p{
+    margin-left: 50%;
+}
