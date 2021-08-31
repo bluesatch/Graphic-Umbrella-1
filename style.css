@@ -51,6 +51,15 @@ span{
 
 /* end generic */
 
+
+/* header */
+
+header nav{
+    margin: 10px;
+}
+/* close header */
+
+
 /* main */
 
 #section1{
@@ -97,7 +106,29 @@ span{
     margin-top: 10px;
 }
 
+#section2 img{
+    width: 170px;
+    margin-top: 50px;
+}
 
+#section2 figcaption{
+    margin: 20px 0 50px -50px;
+    text-align: center;
+    font-size: 2.2em;
+    line-height: 0.8;
+}
+
+#section2 .web{
+    margin-left: -70px;
+}
+
+#section2 figure figcaption span{
+    font-size: 0.5em;
+    text-transform: capitalize;
+    color: inherit;
+}
+
+/* end main */
 
 footer{
     background-color: white;
@@ -141,7 +172,6 @@ footer .btn{
 .colophon-nav{
     display: flex;
     justify-content: space-evenly;
-    margin-left: 0%;
     padding-top: 10px;
 }
 
