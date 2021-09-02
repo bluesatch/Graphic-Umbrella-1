@@ -18,12 +18,14 @@
    <header class="header" id="header">
         <div class=" container container-fluid">
             <div class="row align-items-start">
+                <!-- if you use col-md-6, there's no need to use col-lg-6; they will do the same thing-->
                 <div class="col-lg-6 col-md-6">
                     <img src="Media/umbrella-logo.png" alt="logo" class="img-fluid" /> 
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <nav>
                         <ul class="nav text-uppercase justify-content-around list">
+                            <!-- use .nav-item on the li and .nav-link on the a-->
                             <li class="item"><a href="#">home</a></li>
                             <li class="item"><a href="#">news</a></li>
                             <li class="item"><a href="#">products</a></li>
@@ -43,6 +45,7 @@
                         <img src="Media/devices.png" alt="devices" class="img-fluid" />                     
                 </div>                
                 <div class="col-md-4 block block2">
+                    <!--This could be a p instead -->
                   <h2 class="text-uppercase font-weight-light"> Add Lovely Captions to each slide and make your business stand out</h2>
                 </div>
             </div>
@@ -50,11 +53,14 @@
     </section>
         <section class="section" id="section2">
             <div class="container container-fluid">
+                <!-- this is an h2-->
                 <h1 class="text-uppercase  mt-4">welcome to <span>elegantica</span> - a minimal business theme </h1>
                 <div class="row">
                     <div class="col-3">
+                        <!-- I like how you used figure here-->
                         <figure>
                             <img src="Media/amazing.PNG" alt="amazing img" class="img-fluid" /> 
+                            <!--instead of the br tag, you can apply display: block to .text-uppercase in css -->
                             <figcaption class="text-uppercase">amazing <br> <span>support</span></figcaption>
                         </figure>
                     </div>
@@ -82,6 +88,7 @@
                 <div class="container">
                 <div class="row">
                     <div class="col-sm-5 col-md-6 col-lg-6 row portfolio">
+                        <!-- .col-md-6 should be sufficient-->
                         <div class="col-sm-5 col-md-5 col-lg-6">
                             <img src="Media/business-cards.jpg" alt="Business cards" class="img-fluid" />                       
                         </div>
@@ -108,6 +115,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- what does this div do?-->
                         <div class="w-100"></div>
                         <div class="row mt-5">
                             <div class="col-sm-5 col-md-6 col-lg-6 row portfolio">
@@ -201,6 +209,12 @@
                     <div class="col-lg-3 col-md-6 col-sm-1">
                         <h3 class="text-uppercase"> Archives </h3>
                         <div class="mt-2">
+                            <!--these aren't h5; simply use p tags also instead of creatind dotted lines using the p tag, you can 
+                            apply border-bottom to these inside your css
+                                ex. p {
+                                        border-bottom: 1px dotted gray;
+                                    }
+                            -->
                             <h5 class="text-capitalize">March 2012</h5>
                             <p>...........................</p>                       
                             <h5 class="text-capitalize">February 2012</h5>
@@ -213,6 +227,7 @@
                    </div>
                     <div class="col-lg-3 col-md-6 col-sm-1">
                         <h3 class="text-uppercase ">contact us</h3>
+                        <!-- put these inside a ul>li structure-->
                         <i class="fa fa-envelope-o mt-lg-4 mt-md-3 mt-sm-2" aria-hidden="true"> info@premiuncoding.com</i>
                         <i class="fa fa-phone mt-lg-4 mt-md-3 mt-sm-2" aria-hidden="true"> 800 756 156</i> <br>
 
